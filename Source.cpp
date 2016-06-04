@@ -4,7 +4,7 @@
 #include<Windows.h>
 
 const int height = 20;
-const int width = 30;
+const int width = 30
 int x = width / 2, y = height / 2, punctex, punctey, fructex, fructey, score = 0,q;
 int gameover = 0, tailx[100], taily[100], tail=2;
 HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
